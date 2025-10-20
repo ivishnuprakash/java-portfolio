@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Vishnu Prakash O — Portfolio / Resume</title>
+  <link rel="stylesheet" href="style.css">
+  <meta name="description" content="Portfolio and CV of Vishnu Prakash O — Java Full-stack Developer" />
+  <style>
+    :root{
+      --bg:#0f1724; --card:#0b1220; --accent:#06b6d4; --muted:#9aa4b2; --glass: rgba(255,255,255,0.03);
+      --maxw:1000px;
+      font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%;margin:0;background:linear-gradient(180deg,#071025 0%, #071827 60%);color:#e6eef6}
+    .wrap{max-width:var(--maxw);margin:32px auto;padding:28px;background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));border-radius:14px;box-shadow:0 10px 30px rgba(2,6,23,0.6)}
+    header{display:flex;gap:20px;align-items:center}
+    .avatar{flex:0 0 110px;height:110px;border-radius:14px;background:linear-gradient(135deg,var(--accent),#7c3aed);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:28px;color:#021022}
+    h1{margin:0;font-size:28px}
+    h2{margin:0;font-size:16px;color:var(--muted)}
+    .contact{margin-left:auto;text-align:right}
+    .contact a{color:var(--accent);text-decoration:none}
+
+    main{display:grid;grid-template-columns:1fr 340px;gap:26px;margin-top:24px}
+    .card{background:var(--card);padding:18px;border-radius:10px;box-shadow:inset 0 1px 0 rgba(255,255,255,0.02)}
+
+    .section + .section{margin-top:14px}
+    .section h3{margin:0 0 8px 0;font-size:14px;color:var(--accent)}
+    p{margin:0 0 8px 0;color:#cfe6f5}
+    ul{margin:6px 0;padding-left:18px}
+    li{margin:6px 0;color:#cfe6f5}
+
+    .skills{display:flex;flex-wrap:wrap;gap:8px}
+    .skill{background:var(--glass);padding:8px 10px;border-radius:8px;font-size:13px;color:var(--muted)}
+
+    .meta{display:flex;gap:12px;flex-wrap:wrap}
+    .meta div{font-size:13px;color:var(--muted)}
+
+    /* Right column */
+    aside .card{position:sticky;top:28px}
+    .socials a{display:inline-block;margin-right:8px;text-decoration:none;color:var(--accent);font-weight:600}
+
+    .projects .project{margin-bottom:12px;padding-bottom:10px;border-bottom:1px dashed rgba(255,255,255,0.03)}
+    .project h4{margin:0;font-size:15px}
+    .project .meta{margin-top:6px}
+
+    footer{text-align:center;margin-top:18px;color:var(--muted);font-size:13px}
+
+    /* responsive */
+    @media (max-width:880px){
+      main{grid-template-columns:1fr;}
+      .contact{text-align:left;margin-top:12px}
+      aside .card{position:relative;top:0}
+    }
+
+    /* small print / print-friendly */
+    @media print{body{background:white;color:black} .wrap{box-shadow:none;background:white} .avatar{background:#ddd;color:#111} a[href]:after{content:" (" attr(href) ")";font-size:10px;color:#444} }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+     <div class="avatar">
+  <img src="PRT.jpg" alt="Vishnu Prakash O">
+</div>
+
+      <div>
+        <h1>Vishnu Prakash O</h1>
+        <h2>Java Full-stack Developer — Palakkad, Kerala, India</h2>
+        <div class="meta" style="margin-top:8px">
+          <div>Master of Computer Applications — Dr. John Mathai Centre, Thrissur</div>
+          <div>PG Main project: Invoice Management System (Python)</div>
+        </div>
+      </div>
+
+      <div class="contact">
+        <div style="font-weight:700">+91-9747250657</div>
+        <div><a href="mailto:ovishnuprakash@gmail.com">ovishnuprakash@gmail.com</a></div>
+        <div style="margin-top:6px" class="socials">
+          <a href="https://github.com/ivishnuprakash" target="_blank">GitHub</a>
+          <a href="https://www.linkedin.com/in/vishnu-prakash-o-9747250657o" target="_blank">LinkedIn</a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section>
+        <div class="card section">
+          <h3>Professional Summary</h3>
+          <p>Result-driven Java full-stack developer with experience building web applications and data visualizations. Comfortable with Java &amp; Python backends, front-end technologies (HTML/CSS/JS), databases (MySQL) and frameworks like Spring Boot and Flask. Skilled in OpenCV for ML/vision projects and experienced in producing monthly graphical reports and automation solutions.</p>
+        </div>
+
+        <div class="card section">
+          <h3>Experience</h3>
+          <div class="projects">
+            <div class="project">
+              <h4>Java Full-stack Developer — KODIFINE</h4>
+              <div class="meta">Feb 2024 - Aug 2024 | Ernakulam, Kerala</div>
+              <p>Worked on web applications, backend services and integrations. Contributed to UI and API endpoints, and participated in feature delivery for enterprise customers.</p>
+            </div>
+
+            <div class="project">
+              <h4>Intern — KODIFIE</h4>
+              <div class="meta">June 2024 - Aug 2024</div>
+              <p>Project: <strong>Smile-farm</strong> — built agricultural support tooling including product marketplace, multilingual support and farmer advisory features.</p>
+            </div>
+
+            <div class="project">
+              <h4>TATA - Forage</h4>
+              <div class="meta">Completed: 05 May 2025</div>
+              <p>Online training / certificate — Data Visualization &amp; SQL focused coursework.</p>
+            </div>
+
+            <div class="project">
+              <h4>HackerRank</h4>
+              <div class="meta">Completed: 10 May 2025</div>
+              <p>Algorithm and coding practice badges.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="card section">
+          <h3>Selected Projects</h3>
+          <div class="project">
+            <h4>Invoice Management System (PG Main Project)</h4>
+            <div class="meta">Jan 2024 - Oct 2024</div>
+            <p>Python-based system for stock &amp; record management. Features automated email alerts for due cheques, flexible payment options, online ordering, and monthly graphical sales reports for admins.</p>
+          </div>
+
+          <div class="project">
+            <h4>AI Mouse (PG Mini Project)</h4>
+            <div class="meta">June 2023 - Nov 2023</div>
+            <p>Gesture recognition using OpenCV and MediaPipe. Tracked hand landmarks for cursor movement, clicks, scrolls and drag-drop with noise filtering and real-time performance optimizations.</p>
+          </div>
+        </div>
+
+        <div class="card section">
+          <h3>Education</h3>
+          <p><strong>Master of Computer Applications</strong><br/>Dr. John Mathai Centre, Thrissur</p>
+        </div>
+
+        <div class="card section">
+          <h3>Technical Skills</h3>
+          <div class="skills">
+            <a href="https://www.java.com/en/" class="skill" target="_blank">Java</a>
+
+            <a href="https://www.python.org/" class="skill" target="_blank">Python</a>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" class="skill" target="_blank">HTML / CSS / JS</a>
+            <a href="https://spring.io/projects/spring-boot" class="skill" target="_blank">Spring Boot</a>
+            <a href="https://flask.palletsprojects.com/" class="skill" target="_blank">Flask</a>
+            <a href="https://www.mysql.com/" class="skill" target="_blank">MySQL</a>
+            <a href="https://opencv.org/" class="skill" target="_blank">OpenCV</a>
+            <a href="https://getbootstrap.com/" class="skill" target="_blank">Bootstrap</a>
+            <a href="https://www.tableau.com/" class="skill" target="_blank">Tableau / PowerBI</a>
+            <a href="https://git-scm.com/" class="skill" target="_blank">Git / VS Code</a>
+          </div>          
+        </div>
+
+        <div class="card section">
+          <h3>Languages</h3>
+          <p>English · Malayalam · Hindi · Tamil</p>
+        </div>
+      </section>
+
+      <aside>
+        <div class="card">
+          <h3>Contact &amp; Quick Links</h3>
+          <p style="margin-bottom:12px">Palakkad, Kerala, India</p>
+          <p><a href="mailto:ovishnuprakash@gmail.com">ovishnuprakash@gmail.com</a></p>
+          <p><a href="tel:+919747250657">+91 97472 50657</a></p>
+          <div style="margin-top:12px">
+            <a class="btn" href="https://github.com/ivishnuprakash" target="_blank">View GitHub</a>
+          </div>
+
+          <hr style="border:none;border-top:1px dashed rgba(255,255,255,0.04);margin:12px 0"/>
+
+          <h3>Certificates</h3>
+          <ul>
+            <li>TATA - Forage (Data Visualization)</li>
+            <li>HackerRank (Coding)</li>
+          </ul>
+
+          <hr style="border:none;border-top:1px dashed rgba(255,255,255,0.04);margin:12px 0"/>
+
+          <h3>Download</h3>
+          <p style="margin-bottom:8px">Download a printable copy of this CV (PDF):</p>
+          <a href="Vishnu_Prakash_Resume.pdf" onclick="alert('If you have an uploaded PDF resume, replace the link href with its path to enable download.')" style="display:inline-block;padding:10px 12px;background:var(--accent);color:#012; border-radius:8px;text-decoration:none;font-weight:700">Download Resume</a>
+        </div>
+
+        <div class="card" style="margin-top:14px">
+          <h3>Availability</h3>
+          <p>Open to opportunities in full-time roles and internships related to full-stack development, data visualization, and computer vision.</p>
+        </div>
+      </aside>
+    </main>
+
+    <footer>
+      © <span id="year"></span> Vishnu Prakash O — Built with ♥
+    </footer>
+  </div>
+  <script src="script.js"></script>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
